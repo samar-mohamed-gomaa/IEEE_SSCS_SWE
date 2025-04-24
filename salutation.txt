@@ -1,2 +1,5 @@
 hello
+<<<<<<< HEAD
 salut
+=======
+>>>>>>> hello_branch
