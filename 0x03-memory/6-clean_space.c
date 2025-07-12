@@ -7,12 +7,10 @@ void *clear_allocation(size_t count, size_t size)
 if(memory_block == NULL)
      return NULL;
 memset(memory_block , 0, total_size);
-return memory_block;
-}
+return memory_block;}
 int main()
 { int *arr =(int *)clear_allocation(10,sizeof(int));
 for (int i=0; i<10; i++)
    printf("%d", arr[i]);
 free(arr);
-return 0;
-}
+return 0;}
